@@ -1,9 +1,9 @@
 <div class="home-background">
   <div class="home">
     <div class="content">
-      <app-title level="1">Coffee Galaxy</app-title>
+      <app-title level="1">{{ title }}</app-title>
       <app-paragraph>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ut Officia, Accusantium Mollitia Laudantium Dolorum Dolore.</app-paragraph>
-      <app-button class="button">About us</app-button>
+      <app-button class="button" (clicked)="changeTitle($event)">About us</app-button>
     </div>
   </div>
 </div>
