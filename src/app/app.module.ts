@@ -15,6 +15,7 @@ import { ExamplePipe } from './pipes/example.pipe';
 import { CardComponent } from './components/card/card.component';
 import { PopularComponent } from './sections/popular/popular.component';
 import { PictureCardComponent } from './components/picture-card/picture-card.component';
+import { GalleryComponent } from './sections/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { PictureCardComponent } from './components/picture-card/picture-card.com
     ExamplePipe,
     CardComponent,
     PopularComponent,
-    PictureCardComponent
+    PictureCardComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule
