@@ -8,6 +8,8 @@ import { HomeComponent } from './sections/home/home.component';
 import { TitleComponent } from './components/title/title.component';
 import { ParagraphComponent } from './components/paragraph/paragraph.component';
 import { ButtonComponent } from './components/button/button.component';
+import { AboutComponent } from './sections/about/about.component';
+import { SectionComponent } from './components/section/section.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ButtonComponent } from './components/button/button.component';
     HomeComponent,
     TitleComponent,
     ParagraphComponent,
-    ButtonComponent
+    ButtonComponent,
+    AboutComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule
