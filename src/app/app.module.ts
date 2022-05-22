@@ -10,6 +10,7 @@ import { ParagraphComponent } from './components/paragraph/paragraph.component';
 import { ButtonComponent } from './components/button/button.component';
 import { AboutComponent } from './sections/about/about.component';
 import { SectionComponent } from './components/section/section.component';
+import { FacilityComponent } from './sections/facility/facility.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SectionComponent } from './components/section/section.component';
     ParagraphComponent,
     ButtonComponent,
     AboutComponent,
-    SectionComponent
+    SectionComponent,
+    FacilityComponent
   ],
   imports: [
     BrowserModule
