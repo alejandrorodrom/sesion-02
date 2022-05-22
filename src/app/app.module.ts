@@ -11,6 +11,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { AboutComponent } from './sections/about/about.component';
 import { SectionComponent } from './components/section/section.component';
 import { FacilityComponent } from './sections/facility/facility.component';
+import { ExamplePipe } from './pipes/example.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FacilityComponent } from './sections/facility/facility.component';
     ButtonComponent,
     AboutComponent,
     SectionComponent,
-    FacilityComponent
+    FacilityComponent,
+    ExamplePipe
   ],
   imports: [
     BrowserModule

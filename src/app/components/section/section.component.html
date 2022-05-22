@@ -1,7 +1,7 @@
 <section class="section">
   <div class="header">
     <img src="assets/images/heading-img.png" alt="decoration" class="image">
-    <app-title level="2">{{ name | titlecase }}</app-title>
+    <app-title level="2">{{ name | example: 'Valor por defecto' | titlecase }}</app-title>
   </div>
   <ng-content></ng-content>
 </section>
