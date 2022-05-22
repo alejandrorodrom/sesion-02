@@ -22,6 +22,8 @@ import { FormComponent } from './sections/contact/components/form/form.component
 import { InputComponent } from './components/input/input.component';
 import { FooterComponent } from './sections/footer/footer.component';
 import { IconCardComponent } from './components/icon-card/icon-card.component';
+import { ContentComponent } from './components/content/content.component';
+import { ContentCardComponent } from './components/content-card/content-card.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { IconCardComponent } from './components/icon-card/icon-card.component';
     FormComponent,
     InputComponent,
     FooterComponent,
-    IconCardComponent
+    IconCardComponent,
+    ContentComponent,
+    ContentCardComponent
   ],
   imports: [
     BrowserModule

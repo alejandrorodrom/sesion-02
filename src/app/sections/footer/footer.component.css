@@ -4,13 +4,6 @@
   margin: 0 auto;
 }
 
-.content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-  gap: 1.5rem;
-  align-items: flex-start;
-}
-
 .credit {
   text-align: center;
   margin-top: 3rem;

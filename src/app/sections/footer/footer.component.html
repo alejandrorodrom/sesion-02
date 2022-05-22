@@ -1,12 +1,12 @@
 <footer class="footer">
-  <div class="content">
+  <app-content-card>
     <app-icon-card
       *ngFor="let info of information"
       [icon]="info.icon"
       [title]="info.title"
       [content]="info.content">
     </app-icon-card>
-  </div>
+  </app-content-card>
 
   <div class="credit">
     <app-paragraph [size]="2">

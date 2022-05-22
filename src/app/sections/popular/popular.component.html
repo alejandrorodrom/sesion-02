@@ -1,10 +1,10 @@
 <app-section name="popular menu">
-  <div class="content">
+  <app-content>
     <app-picture-card
       *ngFor="let coffee of coffees"
       [src]="coffee.src"
       [alt]="coffee.alt"
       [name]="coffee.name">
     </app-picture-card>
-  </div>
+  </app-content>
 </app-section>

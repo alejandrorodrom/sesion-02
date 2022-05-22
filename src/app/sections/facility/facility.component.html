@@ -1,5 +1,5 @@
 <app-section name="our facility">
-  <div class="content">
+  <app-content-card>
     <app-card
       *ngFor="let facility of ourFacilities"
       [src]="facility.src"
@@ -7,5 +7,5 @@
       [title]="facility.title"
       [text]="facility.text">
     </app-card>
-  </div>
+  </app-content-card>
 </app-section>

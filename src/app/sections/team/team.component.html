@@ -1,10 +1,10 @@
 <app-section name="our team">
-  <div class="content">
+  <app-content>
     <app-picture-card
       *ngFor="let member of members"
       [src]="member.src"
       [alt]="member.alt"
       [name]="member.name">
     </app-picture-card>
-  </div>
+  </app-content>
 </app-section>
