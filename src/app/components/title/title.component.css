@@ -1,0 +1,26 @@
+.level-1 {
+  font-size: 6rem;
+  color: #333;
+  font-family: 'Merienda One', cursive;
+  padding-bottom: 1rem;
+}
+
+.level-2 {
+  font-size: 4.5rem;
+  color: #333;
+  font-family: 'Merienda One', cursive;
+  padding-bottom: 1rem;
+}
+
+.level-3 {
+  font-size: 4rem;
+  color: #333;
+  font-family: 'Merienda One', cursive;
+  padding-bottom: 1rem;
+}
+
+.level-4 {
+  font-size: 2rem;
+  color: #333;
+  padding-bottom: 1rem;
+}

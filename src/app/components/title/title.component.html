@@ -1,1 +1,14 @@
-<p>title works!</p>
+<h3
+  [ngClass]="{
+   'level-1': level === '1',
+   'level-2': level === '2',
+   'level-3': level === '3',
+   'level-4': level === '4'
+  }">
+  <ng-content></ng-content>
+</h3>
+
+<!--<h3-->
+<!--  [class]="'level-' + level">-->
+<!--  <ng-content></ng-content>-->
+<!--</h3>-->
