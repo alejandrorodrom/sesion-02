@@ -10,6 +10,11 @@ export class ParagraphComponent implements OnInit {
   @Input() size = 1.6;
   @Input() padding = '1rem 0';
 
+  readonly style = {
+    'font-size': this.size + 'rem',
+    'padding': this.padding
+  }
+
   constructor() { }
 
   ngOnInit(): void {
