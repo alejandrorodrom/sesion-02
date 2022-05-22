@@ -1,0 +1,19 @@
+import { Component, Input } from '@angular/core';
+import { Card } from './card.interface';
+
+@Component({
+  selector: 'app-card',
+  templateUrl: './card.component.html',
+  styleUrls: ['./card.component.css']
+})
+export class CardComponent implements Card {
+
+  @Input() src!: string;
+  @Input() alt!: string;
+  @Input() title!: string;
+  @Input() text!: string;
+
+  constructor() { }
+
+
+}

@@ -12,6 +12,7 @@ import { AboutComponent } from './sections/about/about.component';
 import { SectionComponent } from './components/section/section.component';
 import { FacilityComponent } from './sections/facility/facility.component';
 import { ExamplePipe } from './pipes/example.pipe';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ExamplePipe } from './pipes/example.pipe';
     AboutComponent,
     SectionComponent,
     FacilityComponent,
-    ExamplePipe
+    ExamplePipe,
+    CardComponent
   ],
   imports: [
     BrowserModule
