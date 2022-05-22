@@ -7,6 +7,7 @@ import { LinkComponent } from './components/link/link.component';
 import { HomeComponent } from './sections/home/home.component';
 import { TitleComponent } from './components/title/title.component';
 import { ParagraphComponent } from './components/paragraph/paragraph.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ParagraphComponent } from './components/paragraph/paragraph.component';
     LinkComponent,
     HomeComponent,
     TitleComponent,
-    ParagraphComponent
+    ParagraphComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule
