@@ -13,6 +13,8 @@ import { SectionComponent } from './components/section/section.component';
 import { FacilityComponent } from './sections/facility/facility.component';
 import { ExamplePipe } from './pipes/example.pipe';
 import { CardComponent } from './components/card/card.component';
+import { PopularComponent } from './sections/popular/popular.component';
+import { PictureCardComponent } from './components/picture-card/picture-card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { CardComponent } from './components/card/card.component';
     SectionComponent,
     FacilityComponent,
     ExamplePipe,
-    CardComponent
+    CardComponent,
+    PopularComponent,
+    PictureCardComponent
   ],
   imports: [
     BrowserModule
