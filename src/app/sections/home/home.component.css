@@ -1,0 +1,18 @@
+.home-background {
+  background: linear-gradient(90deg, white, transparent 70%), url(src/assets/images/home-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 70rem;
+}
+
+.content {
+  width: 50rem;
+  text-align: center;
+}
