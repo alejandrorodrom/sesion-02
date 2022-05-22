@@ -1,0 +1,9 @@
+.form {
+  border: 0.2rem solid #333;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button {
+  margin-top: 1rem;
+}
