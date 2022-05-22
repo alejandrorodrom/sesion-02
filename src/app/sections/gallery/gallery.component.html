@@ -1,1 +1,5 @@
-<app-section name="our gallery"></app-section>
+<app-section name="our gallery">
+  <div class="content">
+    <img *ngFor="let image of images" [src]="image" alt="image" class="image">
+  </div>
+</app-section>
