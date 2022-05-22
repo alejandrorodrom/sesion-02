@@ -16,6 +16,10 @@ import { CardComponent } from './components/card/card.component';
 import { PopularComponent } from './sections/popular/popular.component';
 import { PictureCardComponent } from './components/picture-card/picture-card.component';
 import { GalleryComponent } from './sections/gallery/gallery.component';
+import { TeamComponent } from './sections/team/team.component';
+import { ContactComponent } from './sections/contact/contact.component';
+import { FormComponent } from './sections/contact/components/form/form.component';
+import { InputComponent } from './components/input/input.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +37,11 @@ import { GalleryComponent } from './sections/gallery/gallery.component';
     CardComponent,
     PopularComponent,
     PictureCardComponent,
-    GalleryComponent
+    GalleryComponent,
+    TeamComponent,
+    ContactComponent,
+    FormComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule
