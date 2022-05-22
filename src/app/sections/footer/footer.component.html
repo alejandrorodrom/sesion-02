@@ -1,0 +1,16 @@
+<footer class="footer">
+  <div class="content">
+    <app-icon-card
+      *ngFor="let info of information"
+      [icon]="info.icon"
+      [title]="info.title"
+      [content]="info.content">
+    </app-icon-card>
+  </div>
+
+  <div class="credit">
+    <app-paragraph [size]="2">
+      © Copyright @ 2022 By <span class="galaxy">Galaxy Training</span> | All Rights Reserved!
+    </app-paragraph>
+  </div>
+</footer>

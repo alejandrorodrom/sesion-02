@@ -1,0 +1,14 @@
+.icon-card {
+  text-align: center;
+}
+
+i {
+  font-size: 2.5rem;
+  line-height: 6rem;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: #BE9C79;
+  color: white;
+  margin-bottom: 1rem;
+}

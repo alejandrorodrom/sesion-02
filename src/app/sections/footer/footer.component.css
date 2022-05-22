@@ -1,0 +1,26 @@
+.footer {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.credit {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 0.2rem solid #333;
+  font-size: 2rem;
+  color: #333;
+}
+
+.galaxy {
+  font-size: 2rem;
+  font-weight: bold;
+}

@@ -1,0 +1,5 @@
+<div class="icon-card">
+  <i [class]="icon"></i>
+  <app-title level="4">{{ title }}</app-title>
+  <app-paragraph *ngFor="let text of content" padding="0">{{ text }}</app-paragraph>
+</div>

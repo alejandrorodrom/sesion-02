@@ -20,6 +20,8 @@ import { TeamComponent } from './sections/team/team.component';
 import { ContactComponent } from './sections/contact/contact.component';
 import { FormComponent } from './sections/contact/components/form/form.component';
 import { InputComponent } from './components/input/input.component';
+import { FooterComponent } from './sections/footer/footer.component';
+import { IconCardComponent } from './components/icon-card/icon-card.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { InputComponent } from './components/input/input.component';
     TeamComponent,
     ContactComponent,
     FormComponent,
-    InputComponent
+    InputComponent,
+    FooterComponent,
+    IconCardComponent
   ],
   imports: [
     BrowserModule
